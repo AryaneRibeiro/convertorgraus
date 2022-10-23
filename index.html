@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="prt1">
+            <h1 class="txt">CONVERTER CELSIUS PARA FAHRENHEIT</h1>
+            <hr> <br>
+        </div>
+
+
+        <label class="label1" for="celsius">Insira celsius:</label>
+
+        <div class="div-1">
+            <input name="celsius" class="dgt" id="celsius" type="number" placeholder="C°"/>
+            <p id="errorMessage" hidden></p>
+            <button id="calc" class="buttonCalc" type="button" onclick="calcular()">Calcular</button>
+        </div>
+
+        <label class="label2">Resultado da conversão para fahrenheit:</label>
+        <input style="color: rgb(73, 42, 42);" id="resultado" type="text" readonly/>
+        
+
+    </main>
+    
+</body>
+</html>
